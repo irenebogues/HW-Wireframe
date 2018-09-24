@@ -1,0 +1,31 @@
+/* to do Header, Nav, Section, Aside, and Footer
+ */
+
+/** Building a web design skeleton using HTML and CSS **/
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: '18px';
+    background-color: darkgrey;
+
+
+
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: '#777';
+        width: '960px';
+        font-size: '18 px';
+        background-color: darkgrey;
+
+    }
+
+    header {
+        padding: 20px;
+        margin-bottom: 20px;
+        color: #333;
+        background: ##ebebeb;
+    }
