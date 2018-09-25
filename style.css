@@ -2,30 +2,104 @@
  */
 
 /** Building a web design skeleton using HTML and CSS **/
+
+/* Header, Nav, Section, Aside, and Footer */
 * {
     box-sizing: border-box;
+}
+
+body {
+    background: #777;
+    width: 1200px;
+    margin: auto;
     text-align: center;
-    font-family: Arial,
-        Helvetica,
-        sans-serif;
-    font-size: '18px';
-    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+
+/* Header Style */
+header {
+    background: #ebebeb;
+    width: 960px;
+    padding: 30px;
+
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for Navigation Menu*/
+.navigation {
+    background: #ebebeb;
+    width: 960px;
+    padding: 30px;
+
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* Container for flex boxes */
+.row {
+
+
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.column {
+    padding: 10px;
+    height: 400px;
+    max-width: 960px;
+    flex-flow: column wrap;
+}
+
+/* Style for Section*/
+
+.column.section {
+
+
+    flex: 2;
+    width: 495px;
+    padding: 20px;
+    margin-left: 120px;
+    flex-flow: column wrap;
+}
+
+/* Style for Aside*/
+.column.aside {
+
+
+    flex: 1;
+    width: 495px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    overflow: hidden;
+}
 
 
 
 
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        color: '#777';
-        width: '960px';
-        font-size: '18 px';
-        background-color: darkgrey;
+/* Style for Container Article*/
+p {
+    background: #777;
+    text-emphasis-color: white;
+}
 
-    }
+<ul>h1 h2,
+h3></ul>
 
-    header {
-        padding: 20px;
-        margin-bottom: 20px;
-        color: #333;
-        background: ##ebebeb;
-    }
+/* Style for Footer*/
+.footer {
+    background: #ebebeb;
+    padding: 30px;
+    width: 960 px;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
